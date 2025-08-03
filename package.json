@@ -1,14 +1,16 @@
 {
   "name": "script-rtl",
   "version": "1.0.0",
-  "description": "Multilingual screenplay editor with RTL and auto-formatting",
-  "main": "index.js",
+  "private": true,
   "dependencies": {
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1"
   },
   "scripts": {
-    "start": "webpack serve --mode development --open",
-    "build": "webpack --mode production"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   }
 }
